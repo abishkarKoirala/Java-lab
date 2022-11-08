@@ -7,28 +7,14 @@ public class Fibonacci {
     public static void main(String[] args) {
 
         int n1=0,n2=1,n3,i,count=10,number;
-
-package Fibonacci;
-
-import java.util.ArrayList;
-
-public class Fibonacci {
-
-    public static void main(String[] args) {
-
-        int n1=0,n2=1,n3,i,count=10,number;
-
-
         ArrayList<Integer>numbersList = new ArrayList<>();
         numbersList.add(n1);
         numbersList.add(n2);
-
 
         for(i=2;i<count;++i)
         {
             n3=n1+n2;
             numbersList.add(n3);
-
             n1=n2;
             n2=n3;
         }
@@ -37,49 +23,4 @@ public class Fibonacci {
     }
 
 }
-        ArrayList<Integer>numbersList = new ArrayList<>();
-        numbersList.add(n1);
-        numbersList.adpackage Fibonacci;
 
-import java.util.ArrayList;
-
-public class Fibonacci {
-
-    public static void main(String[] args) {
-
-        int n1=0,n2=1,n3,i,count=10,number;
-
-
-        ArrayList<Integer>numbersList = new ArrayList<>();
-        numbersList.add(n1);
-        numbersList.add(n2);
-
-
-        for(i=2;i<count;++i)
-        {
-            n3=n1+n2;
-            numbersList.add(n3);
-
-            n1=n2;
-            n2=n3;
-        }
-        System.out.print(" "+numbersList);
-
-    }
-
-}d(n2);
-
-
-        for(i=2;i<count;++i)
-        {
-            n3=n1+n2;
-            numbersList.add(n3);
-
-            n1=n2;
-            n2=n3;
-        }
-        System.out.print(" "+numbersList);
-
-    }
-
-}
